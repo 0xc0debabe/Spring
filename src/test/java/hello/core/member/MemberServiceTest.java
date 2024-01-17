@@ -1,19 +1,13 @@
 package hello.core.member;
 
-<<<<<<< HEAD
 import org.assertj.core.api.Assertions;
-=======
 import hello.core.AppConfig;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
->>>>>>> 7c7239e (240116_spring)
 import org.junit.jupiter.api.Test;
 
 public class MemberServiceTest {
 
-<<<<<<< HEAD
-    MemberService memberService = new MemberServiceImpl();
-=======
     MemberService memberService;
 
     @BeforeEach
@@ -21,7 +15,6 @@ public class MemberServiceTest {
         AppConfig appConfig = new AppConfig();
         memberService = appConfig.memberService();
     }
->>>>>>> 7c7239e (240116_spring)
 
     @Test
     void join() {
